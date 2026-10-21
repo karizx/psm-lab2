@@ -13,6 +13,8 @@ enum class LengthUnit(val label: String, val symbol: String, val metersFactor: D
     KILOMETRE("Kilometres", "km", 1000.0),
     MILE("Miles", "mi", 1609.344),
     LIGHT_YEAR("Light years", "ly", 9_460_730_472_580_800.0),
+
+    INCH("Inches", "in", 0.0254) //dodatkowa jednostka
 }
 
 object ConverterLogic {
